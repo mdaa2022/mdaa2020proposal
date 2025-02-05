@@ -4,14 +4,14 @@
 
 ## Project Description
 
-I will focus on training neural networks (NNs) for the task of navigating a simulated "maze". A robot will be placed in a simulated environment (similar to the image above) and the NN will direct the robot to follow turn-by-turn directions from a starting location to an ending location. The simulator already exists, but a new dataset will need to be created, either manually or using an automated process.
+I will be taking inspiration from a novel I read last spring. You’re safe here is a story set in 2060 centering around a giant tech company that focuses on wellness. They deploy pods off the coast of California that aim to have the user focus on wellness, relaxation and isolation. The user has their day planned for them with recommendations and options that are adjusted based on their state. Throughout the story however we discover the ways in which the program is faulty and the cover-ups that led to such errors.
 
-The trained NN will be "deployed" as an application by putting the NN in new, unseen environments and testing its performance. If all goes well, then an extension of this work will include changing the simulation textures and lighting and training the NN to work when facing unseen textures.
+The wellness network app will have different wellness programs built-in that users can choose from. There will be recommendations and check-ins as well as a social scoring system to boost engagement among the community of users. Food intake, meditation time, physical activity, and daily journaling will be among the parameters considered to give recommendations and score users.
 
-The longer-term goal is to use a NN to enable better navigation in complex environments for a robot with multiple modes of locomotion (i.e., wheeled and flight). The results from this work will feed into an on-going project where we are trying to "cross the reality gap" that exists between simulation and the real world.
+A large portion of this project will be used to discuss the pitfalls of an app like this, the ethics concerns, and the meticulous optimization it would take to be safe and effective for users. This makes the project more of a counterproof of why an app like this should exist.
 
 ## Project Goals
 
-1. Create a dataset for training a NN for navigation.
-2. Explore methods for adding "noise" to the dataset.
-3. Train a NN that is able to navigate any procedurally generated maze.
+1. Simulate what the "wellness pods" looked like in their first days.
+2. Test and recalibrate parameters used to build such a program.
+3. Discuss the ethics needed to allow such a network to exist.
